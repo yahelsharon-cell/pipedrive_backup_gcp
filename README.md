@@ -1,6 +1,6 @@
 # Serverless Pipedrive CRM Backup Pipeline to Google Cloud Storage
 
-An automated, zero-cost, enterprise-grade ETL backup pipeline that exports Pipedrive CRM data, structures it for both technical disaster recovery and non-technical spreadsheet imports, and streams it into Google Cloud Storage (GCS) using GitHub Actions.
+An automated, zero-cost, ETL backup pipeline that exports Pipedrive CRM data, structures it for both technical disaster recovery and non-technical spreadsheet imports, and streams it into Google Cloud Storage (GCS) using GitHub Actions.
 
 Built with a **zero-trust security model** using Google Cloud Workload Identity Federation (OIDC) — eliminating the need for static, long-lived service account keys.
 
