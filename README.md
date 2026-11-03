@@ -12,7 +12,7 @@ Built with a **zero-trust security model** using Google Cloud Workload Identity 
 [ GitHub Actions (Daily Cron / Dispatch) ]
                     │
                     ▼
-     [ Python 3.11 ETL Script ]
+     [ Python ETL Script ]
      ├── Authenticate with Pipedrive API (Header-based)
      ├── Extract CRM entities with pagination & auto-retry (HTTP 429)
      ├── Normalize custom fields & resolve option IDs to labels
