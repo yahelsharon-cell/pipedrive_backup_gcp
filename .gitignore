@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Backup outputs contain CRM data (names, emails, phones) - never commit them
+*.zip
+*.zip.partial
+pipedrive_backup_*
+
+# Credentials
+.env
+*.env
+gha-creds-*.json
+*-credentials.json
+service-account*.json
+*.pem
+*.key
